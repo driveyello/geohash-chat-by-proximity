@@ -80,9 +80,9 @@
 <script src=sound.js></script>
 <script>(function(){
     var  pubnub = PUBNUB({
-        subscribe_key: 'pub-c-09555132-3775-4c01-bdea-373a427ed59a',
-        publish_key: 'sub-c-dc740ffc-33c8-11e6-9edb-02ee2ddab7fe',
-        ssl: true
+        subscribe_key: 'sub-c-dc740ffc-33c8-11e6-9edb-02ee2ddab7fe',
+        publish_key: 'pub-c-09555132-3775-4c01-bdea-373a427ed59a',
+        ssl : ('https:' == document.location.protocol)
     })
     ,       box = pubnub.$('box')
     ,     input = pubnub.$('input')
