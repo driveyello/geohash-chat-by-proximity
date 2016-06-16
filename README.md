@@ -54,8 +54,8 @@ That's it! You simply reduce the resolution of a geo coordinate and use that as 
 ![Geohashing Chat Conversations based on Proximity Nearby][6]
 
 
-  [1]: http://stephenlb.github.io/geohash-chat-by-proximity/
-  [2]: https://github.com/stephenlb/geohash-chat-by-proximity
+  [1]: https://driveyello.github.io/geohash-chat-by-proximity/
+  [2]: https://github.com/driveyello/geohash-chat-by-proximity
   [3]: http://i.stack.imgur.com/tV9S7.jpg
   [4]: http://i.stack.imgur.com/LUAvv.png
   [5]: http://i.stack.imgur.com/GQD3n.png
