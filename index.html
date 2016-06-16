@@ -96,7 +96,7 @@
     // Get Location
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     location(function(pos){
-        channel = geohash(pos.latitude) + '' + geohash(pos.longitude);
+        channel = geohash(pos.latitude, 10) + ',' + geohash(pos.longitude, 10);
         statusmsg.innerHTML = pubnub.supplant(
             'Connecting to "{channel}"',
             { channel : channel }
